@@ -22,8 +22,8 @@ python setup.py install</code></pre>
   
 </div>
 
-<div align="center">
-  <h2>Getting Started</h2>
+<div>
+  <h2 align="center">Getting Started</h2>
 
   <p>
     To get started with the Webshare Proxy API Python client, you'll need an API key from Webshare Proxy. If you don't have one, you can obtain it by signing up on the Webshare Proxy website.
@@ -45,14 +45,14 @@ api_client = ApiClient(api_key)
   </code></pre>
 </div>
 
-<div align="center">
-  <h2>Available Methods</h2>
+<div>
+  <h2 align="center">Available Methods</h2>
 
   <p>
     The <code>ApiClient</code> class provides several methods to interact with the Webshare Proxy API. Each method corresponds to an API endpoint and performs specific operations. Here are some of the available methods:
   </p>
 
-  <h3 style="color: #0d47a1;">create_ip</h3>
+  <h3 style="color: #0d47a1;" align="center">create_ip</h3>
   <p>Create a new IP authorization entry.</p>
 
   <pre><code class="language-python">
@@ -62,7 +62,7 @@ new_ip_auth = api_client.create_ip(ip_address)
 print("New IP Authorization ID:", new_ip_auth.id)
   </code></pre>
 
-  <h3 style="color: #0d47a1;">get_ip</h3>
+  <h3 style="color: #0d47a1;" align="center">get_ip</h3>
   <p>Get a list of IP authorization entries.</p>
 
   <pre><code class="language-python">
@@ -72,7 +72,7 @@ for ip_auth in ip_authorizations.get_results:
     print("IP Address:", ip_auth.ip_address)
   </code></pre>
 
-  <h3 style="color: #0d47a1;">get_proxy_list</h3>
+  <h3 style="color: #0d47a1;" align="center">get_proxy_list</h3>
   <p>Get a list of proxies with optional filters.</p>
 
   <pre><code class="language-python">
