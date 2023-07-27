@@ -1,1 +1,1 @@
-from .webshare import Client
+from .webshare import ApiClient
