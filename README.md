@@ -12,7 +12,7 @@
   
   <p style="font-size: 1.2em; color: #424242;">Recommended installation method is via pip:</p>
   
-  <pre style="background-color: #f5f5f5; padding: 10px;"><code style="color: #f44336;">pip install webshare-proxy-client</code></pre>
+  <pre style="background-color: #f5f5f5; padding: 10px;"><code style="color: #f44336;">pip install webshareproxy</code></pre>
   
   <p style="font-size: 1.2em; color: #424242;">Alternatively, you can clone the repository and install it manually:</p>
   
