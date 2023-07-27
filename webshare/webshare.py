@@ -3,7 +3,7 @@ import requests
 from .util.objects import *
 from typing import Optional, Dict, Union, List, Any
 
-class Client:
+class ApiClient:
     API_BASE_URL = "https://proxy.webshare.io/api/v2/"
 
     def __init__(self, api_key: str) -> None:
