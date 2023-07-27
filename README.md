@@ -34,8 +34,7 @@ python setup.py install</code></pre>
   </p>
 
   <pre><code class="language-python">
-import requests
-from webshare_proxy_client import ApiClient
+from webshareproxy import ApiClient
 
 # Replace 'YOUR_API_KEY' with your actual API key from Webshare Proxy
 api_key = "YOUR_API_KEY"
@@ -56,7 +55,6 @@ api_client = ApiClient(api_key)
   <p>Create a new IP authorization entry.</p>
 
   <pre><code class="language-python">
-# Example:
 ip_address = "123.45.67.89"
 new_ip_auth = api_client.create_ip(ip_address)
 print("New IP Authorization ID:", new_ip_auth.id)
@@ -66,7 +64,6 @@ print("New IP Authorization ID:", new_ip_auth.id)
   <p>Get a list of IP authorization entries.</p>
 
   <pre><code class="language-python">
-# Example:
 ip_authorizations = api_client.get_ip()
 for ip_auth in ip_authorizations.get_results:
     print("IP Address:", ip_auth.ip_address)
@@ -76,7 +73,6 @@ for ip_auth in ip_authorizations.get_results:
   <p>Get a list of proxies with optional filters.</p>
 
   <pre><code class="language-python">
-# Example:
 # Get a list of proxies country code 'US'
 proxies = api_client.get_proxy_list(country_code_in='US')
 for proxy in proxies.get_results:
