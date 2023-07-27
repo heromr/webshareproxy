@@ -2,8 +2,8 @@
   <h1 style="color: #0d47a1; font-size: 3em;">Webshare Proxy API Python Client</h1>
   
   <p>
-    <a href="https://github.com/your_username/your_repo/commits/main"><img src="https://img.shields.io/github/last-commit/your_username/your_repo?label=last%20updated&color=blueviolet" alt="GitHub last commit"></a>
-    <a href="https://pypi.org/project/your-repo/"><img src="https://img.shields.io/pypi/dw/your-repo?color=blueviolet" alt="PyPI - Downloads"></a>
+    <a href="https://github.com/heromr/webshareproxy/commits/main"><img src="https://img.shields.io/github/last-commit/heromr/webshareproxy?label=last%20updated&color=blueviolet" alt="GitHub last commit"></a>
+    <a href="https://pypi.org/project/webshareproxy/"><img src="https://img.shields.io/pypi/dw/webshareproxy?color=blueviolet" alt="PyPI - Downloads"></a>
   </p>
 
   <p style="font-size: 1.2em; color: #424242;">A Python client library for the Webshare Proxy API, providing easy access to various operations like managing proxies, IP authorizations, user profile, notifications, and more.</p>
@@ -16,8 +16,8 @@
   
   <p style="font-size: 1.2em; color: #424242;">Alternatively, you can clone the repository and install it manually:</p>
   
-  <pre style="background-color: #f5f5f5; padding: 10px;"><code style="color: #f44336;">git clone https://github.com/your_username/your_repo.git
-cd your_repo
+  <pre style="background-color: #f5f5f5; padding: 10px;"><code style="color: #f44336;">git clone https://github.com/heromr/webshareproxy.git
+cd webshareproxy
 python setup.py install</code></pre>
   
 </div>
