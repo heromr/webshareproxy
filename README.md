@@ -34,7 +34,7 @@ python setup.py install</code></pre>
   </p>
 
   <pre><code class="language-python">
-from webshareproxy import ApiClient
+from webshare import ApiClient
 
 # Replace 'YOUR_API_KEY' with your actual API key from Webshare Proxy
 api_key = "YOUR_API_KEY"
